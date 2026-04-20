@@ -32,3 +32,17 @@ Decoy entries should have the 'DECOY'tag in the first  column
 Protein FDR is calculated as described in Reidegeld et al., 
 Proteomics. 2008 Mar;8(6):1129-37
 
+
+# Script calcpI.r
+
+This script reads amino acid sequences of peptides or proteins and
+returns their theoretical pI
+
+The returned values does NOT take into account co-translational or
+post-translational modifications (neither chemical modifications)
+
+
+
+
+
+
