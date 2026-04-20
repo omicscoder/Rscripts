@@ -13,3 +13,16 @@ Requirements: 'OrgMassSpecR' package
 
 Plase install the package using 'install.package()' function if this is 
 not yet available in your R installation
+
+Script calcProtFDR_v0-1-2.r
+This script reads a txt (tab separated data) with a list of protein
+and exports a short list at 1% or 5% FDR estimated at the protein 
+level
+The protein list should be obtained after searching both, a target
+and a decoy database
+The first column of the table should contain the 
+UniProtID/Accession number
+Decoy entries should have the 'DECOY'tag in the first  column 
+Protein FDR is calculated as described in Reidegeld et al., 
+Proteomics. 2008 Mar;8(6):1129-37
+
