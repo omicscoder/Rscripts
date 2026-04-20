@@ -1,4 +1,4 @@
-MS/MS spectra analysis of interpeptide disulfide bridge analysis; 
+gen_insilico_disulfide_peps_v03.r
 
 The script can take as input a list of tryptic peptides and obtain in silico
 the MS/MS tables with all theoretical b adn y ions of pairs between two
