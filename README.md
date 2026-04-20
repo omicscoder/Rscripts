@@ -42,7 +42,17 @@ The returned values does NOT take into account co-translational or
 post-translational modifications (neither chemical modifications)
 
 
+# Script discriminate_KR_peptide_v0-1-3.r
 
+pcSILAC data analysis of A375-ST cells labeled with R6/R10,K0/K0 and chased for various 
+times (t0-t5) in R0/R0,K4/K8 after EDEM2 induction with TET (see DOI: 10.1016/j.mcpro.2021.100125)
+
+The data analysis workflow will closelly follow the one described 
+Munteanu CVA. et. al., Munteanu CVA#, Chiritoiu GN#, Chiritoiu M, Ghenea S, Petrescu AJ, Petrescu SM., 
+"Affinity Proteomics and Deglycoproteomics Uncover Novel EDEM2 Endogenous Substrates and an Integrative ERAD Network.",
+Mol. Cell. Proteomics; 20: 100125, 2021
+
+For in put data use only proteinGroups.txt and evidence.txt
 
 
 
